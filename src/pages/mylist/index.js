@@ -25,7 +25,7 @@ export default class Rule extends Component {
     componentDidMount() {
         axios({
             method: 'get',
-            url: 'http://192.168.2.6:3000/myrep',
+            url: 'http://192.168.43.231:3000/myrep',
             data: {
                 
             }

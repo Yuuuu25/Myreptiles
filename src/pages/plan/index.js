@@ -34,7 +34,7 @@ componentDidMount() {
           console.log("列表")
           axios({
             method: 'get',
-            url: 'http://192.168.2.6:3000/rep',
+            url: 'http://192.168.43.231:3000/rep',
             data: {
                 
             }
@@ -48,7 +48,7 @@ componentDidMount() {
           console.log('我的')
           axios({
             method: 'get',
-            url: 'http://192.168.2.6:3000/myrep',
+            url: 'http://192.168.43.231:3000/myrep',
             data: {
                 
             }
